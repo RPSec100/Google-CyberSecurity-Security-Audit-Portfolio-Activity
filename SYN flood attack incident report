@@ -1,1 +1,34 @@
+# Cybersecurity Incident Report: SYN Flood Analysis
 
+## Objective
+Analyze the provided logs to identify the cause of the website outage and document the findings.
+
+## Context
+This documentation was completed with the provided incident and Network logs from the Google Cybersecurity Professional Certificate.
+
+## Skilled Demonstrated
+- Security Documentation
+- Wireshark TCP/HTTP log analysis
+- Incident Reporting
+- DoS identification
+
+## Tools used
+- Google Doc
+- Google Sheets providing Wireshark TCP/HTTP logs
+- Google Cybersecurity Professional Certificate program
+
+## Scenario 
+The company website has experienced a repeated timeout error message. With the TCP/HTTP logs provided, I am tasked to analyze the logs and identify the root cause of the outage.
+
+## Findings
+The log data was experiencing a SYN flood attack. The logs showed an extremely large number of SYN requests by a malicious attacker, causing the web server to be completely overwhelmed and preventing legitimate users from connecting and accessing the website.
+
+## Concepts learned
+- Three-way handshake connection
+- SYN
+- SYN/ACK
+- DoS attacks
+- Network Traffic Analysis
+
+## What I learned
+This documentation provided a strong understanding of how to analyze and identify network logs and how SYN flood attacks work.
