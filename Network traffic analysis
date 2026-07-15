@@ -1,1 +1,29 @@
+# Network Traffic Analysis 
+## Objective
+Analyze DNS and ICMP traffic logs to determine the cause of a network traffic issue.
 
+## Context
+This documentation was completed as part of the Google Cybersecurity Professional Certificate program and was provided with tcmpdump traffic logs for analysis.
+
+## Skills Demonstrated 
+- DNS analysis
+- ICMP analysis
+- Incident investigation
+- Documentation
+
+## Tools Used
+- Google Docs
+- Google Cybersecurity Professional Certificate
+
+## Scenario
+Several customers reported that they were not able to access the company website. I am tasked to analyze the given DNS and ICMP traffic logs to identify the cause of the website outage.
+
+## Findings
+The given UDP protocol logs revealed that port 53 is unreachable when attempting to access the website. The incident was suspected of being a DDoS attack.
+
+## What I learned
+This project helped me understand and learn how to perform:
+- traffic log analysis
+- Packet analysis
+- Port 53
+- Incident documentation
